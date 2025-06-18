@@ -93,9 +93,7 @@ The training process automatically saves checkpoints:
 
 **Feature Normalization (Equation 6):**
 
-$$
-f_{\theta_{s}}(x)_{\text{norm}}=\frac{f_{\theta_{s}}(x)-\mu_{s}}{\sigma_{s}}
-$$
+![Equation 6](https://latex.codecogs.com/png.image?\dpi{115}f_{\theta_{s}}(x)_{\text{norm}}=\frac{f_{\theta_{s}}(x)-\mu_{s}}{\sigma_{s}})
 
 
 **Perturbation Calculation (Equation 9):**
@@ -107,9 +105,7 @@ $$
 
 **Combined Loss (Equation 12):**
 
-$$
-\min_{\theta} (1-\alpha)L(x, y, \theta) + \alpha L(f'_{\theta_{s}}(x), y, \theta_{d})
-$$
+![Equation 12](https://latex.codecogs.com/png.image?\dpi{115}\min_{\theta}(1-\alpha)L(x,y,\theta)%20+%20\alpha%20L(f'_{\theta_{s}}(x),y,\theta_{d}))
 
 
 ## Adversarial Robustness
